@@ -1,21 +1,22 @@
 {
-  "name": "ssopostmsg",
+  "name": "sso-iframe-page",
   "version": "1.0.0",
-  "description": "",
+  "description": "setup ``` npm init -y && npm install express -save-dev ``` run ``` node index.js ```",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hypothesisobservation/ssoPostMsg.git"
+    "url": "git+https://github.com/hypothesisobservation/sso-iframe-page.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hypothesisobservation/ssoPostMsg/issues"
+    "url": "https://github.com/hypothesisobservation/sso-iframe-page/issues"
   },
-  "homepage": "https://github.com/hypothesisobservation/ssoPostMsg#readme",
+  "homepage": "https://github.com/hypothesisobservation/sso-iframe-page#readme",
   "dependencies": {
     "express": "^4.18.2"
   }
