@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>响应页面</title>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script> //webpack es module -->
+</head>
+
+<body>
+    <p style="text-align: center;">这里是sso端口</p>
+    <p>message： <span></span></p>
+    <button id="allow-cookies" style="display: none;">Allow cookies</button>
+    <button >Allow cookies</button>
+    <input id="post-message" data-origin="" data-cookie="" data-type="" type='hidden'></input>
+    <!-- <script> //webpack es module 
+        // postMessage跨域适合于同一页面的不同窗体(iframe)，所以在3001这个页面不会收到信息。
+        var input = document.getElementsByTagName('input')[0];
+        var span = document.getElementsByTagName('span')[0];
+        var btn = document.getElementsByTagName('button')[0];
+        var btn1 = document.getElementsByTagName('button')[1];
+        var parentWin = window.parent;
+        /**
+         * RequireJS全局配置文件
+         */
+        requirejs.config({
+            waitSeconds: 20000,
+            //预加载JS文件的配置项，默认可不用添加.js后缀
+            paths:{
+                //RequireJS默认假定所有的依赖资源都是JS脚本，因此无需再module ID上再加上js后缀。
+                webpackNumbers:"https://sso-webpack-lib.onrender.com/index.bundle"
+            }
+        });
+
+        requirejs(['webpackNumbers'],function(webpackNumbers){
+
+            // ...
+            // Global variable
+            webpackNumbers.attachEventIframe(parentWin,input,span,btn,btn1);
+
+        });
+    </script> -->
+</body>
+
+</html>
