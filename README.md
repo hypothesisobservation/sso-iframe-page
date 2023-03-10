@@ -1,4 +1,4 @@
-# sso-enbemded-iframe
+# SSO 内嵌iframe页面（使用webpack import webpack 生成的module ）
 https://sso-iframe-page.onrender.com   
 
 setup
